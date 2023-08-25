@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/contents/016/myanswer/pom.xml" />
+        <option value="$PROJECT_DIR$/contents/017/myanswer017/pom.xml" />
+        <option value="$PROJECT_DIR$/contents/018/myanswer018/pom.xml" />
+        <option value="$PROJECT_DIR$/contents/019/myanswer019/pom.xml" />
+        <option value="$PROJECT_DIR$/contents/020/myanswer020/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

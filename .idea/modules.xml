@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/contents/001/001.iml" filepath="$PROJECT_DIR$/contents/001/001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/006/006.iml" filepath="$PROJECT_DIR$/contents/006/006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/008/008.iml" filepath="$PROJECT_DIR$/contents/008/008.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/009/009.iml" filepath="$PROJECT_DIR$/contents/009/009.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/010/010.iml" filepath="$PROJECT_DIR$/contents/010/010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/015/015.iml" filepath="$PROJECT_DIR$/contents/015/015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/016/016.iml" filepath="$PROJECT_DIR$/contents/016/016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/017/017.iml" filepath="$PROJECT_DIR$/contents/017/017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/018/018.iml" filepath="$PROJECT_DIR$/contents/018/018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/019/019.iml" filepath="$PROJECT_DIR$/contents/019/019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/020/020.iml" filepath="$PROJECT_DIR$/contents/020/020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/021/021.iml" filepath="$PROJECT_DIR$/contents/021/021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/022/022.iml" filepath="$PROJECT_DIR$/contents/022/022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/023/023.iml" filepath="$PROJECT_DIR$/contents/023/023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/024/024.iml" filepath="$PROJECT_DIR$/contents/024/024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/025/025.iml" filepath="$PROJECT_DIR$/contents/025/025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/029/029.iml" filepath="$PROJECT_DIR$/contents/029/029.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/030/030.iml" filepath="$PROJECT_DIR$/contents/030/030.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/031/031.iml" filepath="$PROJECT_DIR$/contents/031/031.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/032/032.iml" filepath="$PROJECT_DIR$/contents/032/032.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/033/033.iml" filepath="$PROJECT_DIR$/contents/033/033.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/034/034.iml" filepath="$PROJECT_DIR$/contents/034/034.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/035/035.iml" filepath="$PROJECT_DIR$/contents/035/035.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/037/037.iml" filepath="$PROJECT_DIR$/contents/037/037.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/038/038.iml" filepath="$PROJECT_DIR$/contents/038/038.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/039/039.iml" filepath="$PROJECT_DIR$/contents/039/039.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/040/040.iml" filepath="$PROJECT_DIR$/contents/040/040.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/041/041.iml" filepath="$PROJECT_DIR$/contents/041/041.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/043/043.iml" filepath="$PROJECT_DIR$/contents/043/043.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/044/044.iml" filepath="$PROJECT_DIR$/contents/044/044.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/047/047.iml" filepath="$PROJECT_DIR$/contents/047/047.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/049/049.iml" filepath="$PROJECT_DIR$/contents/049/049.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/054/054.iml" filepath="$PROJECT_DIR$/contents/054/054.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/055/055.iml" filepath="$PROJECT_DIR$/contents/055/055.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/056/056.iml" filepath="$PROJECT_DIR$/contents/056/056.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/057/057.iml" filepath="$PROJECT_DIR$/contents/057/057.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/058/058.iml" filepath="$PROJECT_DIR$/contents/058/058.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/059/059.iml" filepath="$PROJECT_DIR$/contents/059/059.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/060/060.iml" filepath="$PROJECT_DIR$/contents/060/060.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/062/062.iml" filepath="$PROJECT_DIR$/contents/062/062.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/072/072.iml" filepath="$PROJECT_DIR$/contents/072/072.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/073/073.iml" filepath="$PROJECT_DIR$/contents/073/073.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/030/answer/answer.iml" filepath="$PROJECT_DIR$/contents/030/answer/answer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/061/answer002/answer002.iml" filepath="$PROJECT_DIR$/contents/061/answer002/answer002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/016/answer002/answer0021.iml" filepath="$PROJECT_DIR$/contents/016/answer002/answer0021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/017/answer002/answer0022.iml" filepath="$PROJECT_DIR$/contents/017/answer002/answer0022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/006/answer002/answer0023.iml" filepath="$PROJECT_DIR$/contents/006/answer002/answer0023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/010/answer002/answer0024.iml" filepath="$PROJECT_DIR$/contents/010/answer002/answer0024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/015/answer015/answer015.iml" filepath="$PROJECT_DIR$/contents/015/answer015/answer015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/010/answer/answer1.iml" filepath="$PROJECT_DIR$/contents/010/answer/answer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/021/answer/answer10.iml" filepath="$PROJECT_DIR$/contents/021/answer/answer10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/020/answer/answer11.iml" filepath="$PROJECT_DIR$/contents/020/answer/answer11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/040/answer/answer12.iml" filepath="$PROJECT_DIR$/contents/040/answer/answer12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/022/answer/answer13.iml" filepath="$PROJECT_DIR$/contents/022/answer/answer13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/023/answer/answer14.iml" filepath="$PROJECT_DIR$/contents/023/answer/answer14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/006/answer/answer15.iml" filepath="$PROJECT_DIR$/contents/006/answer/answer15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/001/answer/answer16.iml" filepath="$PROJECT_DIR$/contents/001/answer/answer16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/029/answer/answer17.iml" filepath="$PROJECT_DIR$/contents/029/answer/answer17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/038/answer/answer18.iml" filepath="$PROJECT_DIR$/contents/038/answer/answer18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/061/answer/answer19.iml" filepath="$PROJECT_DIR$/contents/061/answer/answer19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/034/answer/answer2.iml" filepath="$PROJECT_DIR$/contents/034/answer/answer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/047/answer/answer20.iml" filepath="$PROJECT_DIR$/contents/047/answer/answer20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/043/answer/answer21.iml" filepath="$PROJECT_DIR$/contents/043/answer/answer21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/049/answer/answer22.iml" filepath="$PROJECT_DIR$/contents/049/answer/answer22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/041/answer/answer23.iml" filepath="$PROJECT_DIR$/contents/041/answer/answer23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/032/answer/answer3.iml" filepath="$PROJECT_DIR$/contents/032/answer/answer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/033/answer/answer4.iml" filepath="$PROJECT_DIR$/contents/033/answer/answer4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/017/answer/answer5.iml" filepath="$PROJECT_DIR$/contents/017/answer/answer5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/018/answer/answer6.iml" filepath="$PROJECT_DIR$/contents/018/answer/answer6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/035/answer/answer7.iml" filepath="$PROJECT_DIR$/contents/035/answer/answer7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/037/answer/answer8.iml" filepath="$PROJECT_DIR$/contents/037/answer/answer8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/044/answer/answer9.iml" filepath="$PROJECT_DIR$/contents/044/answer/answer9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-100practices.iml" filepath="$PROJECT_DIR$/.idea/java-100practices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanswer.iml" filepath="$PROJECT_DIR$/myanswer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanswer017.iml" filepath="$PROJECT_DIR$/myanswer017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanswer018.iml" filepath="$PROJECT_DIR$/myanswer018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanswer019.iml" filepath="$PROJECT_DIR$/myanswer019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myanswer020.iml" filepath="$PROJECT_DIR$/myanswer020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/001/test/test.iml" filepath="$PROJECT_DIR$/contents/001/test/test.iml" />
+    </modules>
+  </component>
+</project>
