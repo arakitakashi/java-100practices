@@ -5,6 +5,7 @@ import java.lang.StringBuffer;
 public class MyAnswer {
     public static void main(String[]args){
         try {
+            // クラスオブジェクトを取得
 //            Class<?> clazz = Class.forName("java.lang.StringBuffer");
 //            Class<?> clazz = new StringBuffer("").getClass();
             Class<?> clazz = StringBuffer.class;
