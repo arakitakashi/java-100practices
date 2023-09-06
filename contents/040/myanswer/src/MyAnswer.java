@@ -13,15 +13,15 @@ public class MyAnswer {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    throw new RuntimeException("This is an uncaught exception.");
+                    throw new RuntimeException("非チェック例外です。");
                 }
             }).start();
 
-            // キャッチされない例外を発生させるスレッド（別のもの）
+            // キャッチされない例外を発生させるスレッド
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    throw new NullPointerException("This is another uncaught exception.");
+                    throw new NullPointerException("チェック例外です。");
                 }
             }).start();
         }
