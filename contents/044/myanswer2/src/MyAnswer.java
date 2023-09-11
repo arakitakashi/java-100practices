@@ -33,7 +33,10 @@ public class MyAnswer {
             System.out.println(targetDate);
         }
 
-        Collections.sort(dateList);
+        List<TargetDate> sortedDateList = dateList
+                .stream()
+                .sorted(new DateComparator())
+                .toList();
 
         System.out.println("ソート後 -----------");
         for (TargetDate targetDate : dateList) {

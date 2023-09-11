@@ -9,7 +9,7 @@ public class MyAnswer {
                 }
             });
 
-            // キャッチされない例外を発生させるスレッド
+            // 非チェック例外を発生させるスレッド
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -17,7 +17,7 @@ public class MyAnswer {
                 }
             }).start();
 
-            // キャッチされない例外を発生させるスレッド
+            // チェック例外を発生させるスレッド
             new Thread(new Runnable() {
                 @Override
                 public void run() {
