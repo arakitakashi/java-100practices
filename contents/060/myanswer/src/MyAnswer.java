@@ -11,6 +11,7 @@ public class MyAnswer {
             NetworkInterface.networkInterfaces()
                     .filter(networkInterface -> {
                         try {
+                            // インターフェイスの起動確認・ループバックインターフェースか確認・仮想インターフェースか確認
                             return networkInterface.isUp() && !networkInterface.isLoopback() && !networkInterface.isVirtual();
                         } catch (SocketException e) {
                             return false;
@@ -20,15 +21,15 @@ public class MyAnswer {
                         try {
                             byte[] macBytes = networkInterface.getHardwareAddress();
                             if (macBytes == null) {
-                                return;  // Skip interfaces without a MAC address
+                                return;
                             }
 
                             StringBuilder macAddress = new StringBuilder();
                             for (byte b : macBytes) {
-                                macAddress.append(String.format("%02X:", b));
+                                macAddress.append(String.format("%02X:", b)); // バイトを16進数文字列に変換
                             }
                             if (macAddress.length() > 0) {
-                                macAddress.deleteCharAt(macAddress.length() - 1);  // Remove trailing colon
+                                macAddress.deleteCharAt(macAddress.length() - 1); // 末尾のコロンを削除
                             }
 
                             networkInterface.inetAddresses()

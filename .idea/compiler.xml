@@ -9,6 +9,7 @@
         <module name="myanswer023" />
         <module name="myanswer022" />
         <module name="myanswer020" />
+        <module name="myanswer073" />
         <module name="myanswer" />
         <module name="myanswer019" />
         <module name="myanswer018" />
@@ -24,6 +25,7 @@
       <module name="myanswer020" target="17" />
       <module name="myanswer022" target="17" />
       <module name="myanswer023" target="17" />
+      <module name="myanswer073" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,19 +1,21 @@
-public class Knock063 {
-    public int check1(String target) {
-        if (target ==  "value1") {
-            return 0;
-        } else if (target == "value2") {
-            return 1;
-        }
-        return 2;
+public class Knock064 {
+    private Cache<String, Object> cache;
+
+    public void init() {
+        this.cache = new Cache<>();
     }
 
-    public int check2(String target) {
-        if ("value1".equals(target)) {
-            return 0;
-        } else if ("value2".equals(target)) {
-            return 1;
+    public Object doSomething(String key) {
+        // 時間がかかる処理なので、結果をキャッシュしておき、同じリクエストなら、同じ答えを返すようにする
+        Object result = this.cache.get(key);
+        if (result != null) {
+            return result;
         }
-        return 2;
+
+        // いろいろな処理（省略）
+        // 結果、resultが帰ってきたとする
+        result = new Object();
+        this.cache.put(key, result);
+        return result;
     }
 }
