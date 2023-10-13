@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class MyAnswer {
+public class MyAnswer76 {
     public static void main(String[] args) {
         CommandFactory commandFactory = CommandFactory.getInstance();
 

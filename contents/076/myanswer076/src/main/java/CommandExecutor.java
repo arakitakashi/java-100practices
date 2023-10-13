@@ -9,6 +9,8 @@ public class CommandExecutor<T> {
     private CommandExecutor(){}
 
     public void invoke(Command<T> command, CallBack<T> callBack) {
+        // Future: 非同期計算の結果を表すインターフェース
+        // submit: 非同期でタスクを実行する。
         Future<?> future = executorService.submit(() -> {
             try {
                 command.execute();

@@ -4,7 +4,9 @@ import static java.util.Objects.isNull;
 
 public class MyStack<T> {
     private T[] array;
+
     private int point = 0;
+
     private static final int INIT_SIZE = 4;
 
     @SuppressWarnings("unchecked")
