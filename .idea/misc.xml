@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/contents/022/myanswer022/pom.xml" />
         <option value="$PROJECT_DIR$/contents/023/myanswer023/pom.xml" />
         <option value="$PROJECT_DIR$/contents/073/myanswer073/pom.xml" />
+        <option value="$PROJECT_DIR$/contents/076/myanswer076/pom.xml" />
       </list>
     </option>
   </component>
