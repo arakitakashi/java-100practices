@@ -44,6 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/contents/062/062.iml" filepath="$PROJECT_DIR$/contents/062/062.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/072/072.iml" filepath="$PROJECT_DIR$/contents/072/072.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/073/073.iml" filepath="$PROJECT_DIR$/contents/073/073.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contents/078/078.iml" filepath="$PROJECT_DIR$/contents/078/078.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/030/answer/answer.iml" filepath="$PROJECT_DIR$/contents/030/answer/answer.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/061/answer002/answer002.iml" filepath="$PROJECT_DIR$/contents/061/answer002/answer002.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/016/answer002/answer0021.iml" filepath="$PROJECT_DIR$/contents/016/answer002/answer0021.iml" />
@@ -75,7 +76,6 @@
       <module fileurl="file://$PROJECT_DIR$/contents/037/answer/answer8.iml" filepath="$PROJECT_DIR$/contents/037/answer/answer8.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/044/answer/answer9.iml" filepath="$PROJECT_DIR$/contents/044/answer/answer9.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-100practices.iml" filepath="$PROJECT_DIR$/.idea/java-100practices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/contents/076/myanswer076/myanswer076.iml" filepath="$PROJECT_DIR$/contents/076/myanswer076/myanswer076.iml" />
       <module fileurl="file://$PROJECT_DIR$/contents/001/test/test.iml" filepath="$PROJECT_DIR$/contents/001/test/test.iml" />
     </modules>
   </component>
