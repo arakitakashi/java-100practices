@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 import static java.util.Objects.isNull;
 
+// スレッドセーフかどうか意識してクラスを作る。JavaDoc
 public class MyStack<T> {
     private T[] array;
 
@@ -25,7 +26,7 @@ public class MyStack<T> {
 
     public T pop() {
         // データが存在しない場合に例外を投げる。
-        if(point == 0) {
+        if (point == 0) {
             throw new IllegalStateException("データが存在しません。");
         }
 
@@ -38,14 +39,14 @@ public class MyStack<T> {
 
     // pushするデータがサイズがはみ出る場合は、2倍程度に拡張する
     private void resize() {
-        if(point >= array.length) {
+        if (point >= array.length) {
             array = Arrays.copyOf(array, 2 * point + 1);
         }
     }
 
     // popする際にサイズが大きすぎる場合は2分の1に縮小する
     private void shrink() {
-        if(point > INIT_SIZE && point <= array.length / 4) {
+        if (point > INIT_SIZE && point <= array.length / 4) {
             array = Arrays.copyOf(array, array.length / 2);
         }
     }

@@ -1,5 +1,5 @@
 public interface CallBack<T> {
-    public void onSuccess(T result);
+    void onSuccess(T result);
 
-    public void onError(Exception e);
+    void onError(Exception e);
 }

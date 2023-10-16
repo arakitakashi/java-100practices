@@ -13,7 +13,7 @@ public abstract class AbstractCommand<T> implements Command<T> {
             status = Status.EXECUTING;
             result = executeInner();
 
-            if(Thread.currentThread().isInterrupted()) {
+            if (Thread.currentThread().isInterrupted()) {
                 status = Status.NONE;
                 result = null;
                 return;
