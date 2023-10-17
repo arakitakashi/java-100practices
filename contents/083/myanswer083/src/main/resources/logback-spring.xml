@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--Spring Bootの基本設定の読み込み-->
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+
+　　　<!--ファイル出力設定-->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--出力先ファイル-->
+        <file>logs/main.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>logs/main-%d{yyyyMMdd}.log</fileNamePattern>
+            <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %F:%L - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--ルートロガー(アプリケーション全体のデフォルトロガー)の設定-->
+    <!--INFO以上-->
+    <root level="INFO">
+        <appender-ref ref="FILE" />
+        <!--コンソールにもlogを出力-->
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
