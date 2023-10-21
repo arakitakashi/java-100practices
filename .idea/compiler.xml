@@ -8,16 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myanswer023" />
         <module name="myanswer022" />
+        <module name="myanswer088" />
         <module name="myanswer020" />
         <module name="answer078" />
         <module name="myanswer073 (2)" />
         <module name="myanswer073" />
         <module name="myanswer073 (1)" />
-        <module name="myanswer" />
         <module name="myanswer083" />
         <module name="myanswer019" />
         <module name="myanswer018" />
         <module name="myanswer017" />
+        <module name="myanswer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
