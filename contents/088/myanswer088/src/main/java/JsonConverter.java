@@ -31,6 +31,7 @@ public class JsonConverter {
 
     private static Item convertToObject(String[] args) {
         if (args.length != 1 ) throw new IllegalArgumentException("入力項目数が不正です。");
+
         System.out.print("JSON形式の文字列(改行なし)を入力してください：");
         Scanner scanner = new Scanner(System.in);
         String inputJson = scanner.nextLine();
