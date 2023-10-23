@@ -18,7 +18,7 @@ public class Util {
         if (isNull(originalList)) throw new IllegalArgumentException("ディープコピー対象の配列が存在しません。");
         List<Date> result = new ArrayList<>();
         for (Date original : originalList) {
-            if (original == null) {
+            if (isNull(original)) {
                 result.add(null);
             } else {
                 result.add((Date) original.clone());

@@ -11,6 +11,8 @@ import static org.assertj.core.api.Assertions.*;
 class UtilTest {
     @Nested
     class shallowCopyDateListメソッド {
+        // 全ての要素のアサート。
+        // リスト自体が異なる参照であること。
         @Test
         void 要素が同一参照である() {
             // setup
@@ -28,26 +30,27 @@ class UtilTest {
             assertThat(actual).isSameAs(expected);
         }
 
-        @Test
-        void 要素が同値である() {
-            // setup
-            List<Date> original = List.of(
-                    new Date(),
-                    new Date(),
-                    new Date()
-            );
-            Date expected = original.get(0);
-
-            // execute
-            Date actual = Util.shallowCopyDateList(original).get(0);
-
-            // assert
-            assertThat(actual).isEqualTo(expected);
-        }
+//        @Test
+//        void 要素が同値である() {
+//            // setup
+//            List<Date> original = List.of(
+//                    new Date(),
+//                    new Date(),
+//                    new Date()
+//            );
+//            Date expected = original.get(0);
+//
+//            // execute
+//            Date actual = Util.shallowCopyDateList(original).get(0);
+//
+//            // assert
+//            assertThat(actual).isEqualTo(expected);
+//        }
     }
 
     @Nested
     class deepCopyDateListメソッド {
+        // 全ての要素をアサート
         @Test
         void 要素が異なる参照である() {
             // setup
